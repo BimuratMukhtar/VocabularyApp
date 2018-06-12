@@ -1,20 +1,13 @@
 package com.example.android.vocabularyapp;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private View.OnClickListener onClickViewListener = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-
-        }
-    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
